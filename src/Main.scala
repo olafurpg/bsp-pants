@@ -1,4 +1,7 @@
 package src
-object Main extends App {
-  println(core.Lib.greeting)
+
+object Main {
+  def main(args: Array[String]): Unit = {
+    println("Hello world!")
+  }
 }

@@ -1,4 +1,4 @@
 package core
 object Lib {
-  def greeting: Int = "Hello from lib!"
+  def greeting = "Hello from lib!"
 }
