@@ -1,0 +1,13 @@
+SCALA_VERSION='2.12.10'
+jar_library(
+  name = 'scalac',
+  jars = [
+    jar(org = 'org.scala-lang', name = 'scala-compiler', rev = SCALA_VERSION),
+  ],
+  dependencies=[
+    ':scala-reflect',
+    ':scala-library',
+  ])
+jar_library(name = 'scala-library', jars = [jar(org = 'org.scala-lang', name = 'scala-library', rev = SCALA_VERSION)], scope='force')
+jar_library(name = 'scala-reflect', jars = [jar(org = 'org.scala-lang', name = 'scala-reflect', rev = SCALA_VERSION, intransitive=True)])
+target(name = 'scala-repl', dependencies=[ ':scalac', ':scala-reflect', ':scala-library'])
