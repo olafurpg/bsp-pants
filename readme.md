@@ -4,6 +4,7 @@ First, export the Pants build to Bloop:
 ```
 git clone https://github.com/olafurpg/intellij-bsp-pants.git
 cd intellij-bsp-pants
+git checkout inner-outer
 ./setup-bsp.sh                 # takes a while to complete
 bloop compile `bloop projects` # validate that Bloop compilation works
 ```
