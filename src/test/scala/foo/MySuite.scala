@@ -6,7 +6,7 @@ import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
 class MySuite extends FunSuite {
-  test("auto-test works") {
-    println("Auto-test!")
+  test("user-dir") {
+    println(s"Working directory: ${System.getProperty("user.dir")}")
   }
 }
