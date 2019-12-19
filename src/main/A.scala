@@ -1,5 +1,5 @@
 package main
 
-class A {
-  def foo = 42
+object A extends App {
+  println("Hello A")
 }
