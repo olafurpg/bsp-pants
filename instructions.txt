@@ -1,3 +1,3 @@
-git clone -b duplicate-content-root https://github.com/olafurpg/intellij-bsp-pants
+git clone -b wrong-module https://github.com/olafurpg/intellij-bsp-pants
 cd intellij-bsp-pants
 ./setup-bsp.sh
