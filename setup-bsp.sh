@@ -1,1 +1,5 @@
-./coursier launch org.scalameta:metals_2.12:0.7.6+563-b1cc89c7-SNAPSHOT -r sonatype:snapshots --main scala.meta.internal.pantsbuild.BloopPants -- --intellij files::
+./coursier launch \
+  org.scalameta:metals_2.12:0.8.0+305-60af6828-SNAPSHOT \
+  -r sonatype:snapshots \
+  --main scala.meta.internal.pantsbuild.BloopPants -- \
+  create --name package-filename --intellij src::
