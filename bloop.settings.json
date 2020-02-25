@@ -1,0 +1,9 @@
+{
+  "refreshProjectsCommand": [
+    "/opt/twitter_mde/bin/fastpass",
+    "refresh",
+    "--workspace",
+    "/Users/lgeirsson/dev/bsp-pants",
+    "package-filename"
+  ]
+}
