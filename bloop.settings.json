@@ -1,6 +1,11 @@
 {
   "refreshProjectsCommand": [
-    "/opt/twitter_mde/bin/fastpass",
+    "/usr/local/bin/coursier",
+    "launch",
+    "org.scalameta:metals_2.12:0.8.1-SNAPSHOT",
+    "--main",
+    "scala.meta.internal.pantsbuild.BloopPants",
+    "--",
     "refresh",
     "--workspace",
     "/Users/lgeirsson/dev/bsp-pants",

@@ -1,5 +1,5 @@
 jvm_binary(
-    name = "issue",
+    name = "new-target-name",
     basename = "bsp",
     main = "bsp.issue.Issue",
     source = "Main.scala",
