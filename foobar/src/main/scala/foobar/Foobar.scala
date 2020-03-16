@@ -1,0 +1,3 @@
+package foobar
+
+class Foobar
