@@ -1,10 +1,6 @@
-jvm_binary(
-    name = "bin",
-    basename = "bsp",
-    main = "bsp.Main",
-    source = "Main.scala",
+scala_library(
+    sources = ["Main.scala"],
     dependencies = [
-        "src/main/resources/bsp:bsp",
         "3rdparty/jvm/org/scala-lang:scala-library",
     ],
 )

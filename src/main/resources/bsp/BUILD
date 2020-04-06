@@ -1,5 +1,0 @@
-resources(
-    sources = rglobs(
-        "*.json",
-    ),
-)

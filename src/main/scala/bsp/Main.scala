@@ -1,6 +1,9 @@
 package bsp
 
 object Main extends App {
-  println("Hello world!")
-  println(this.getClass.getResource("/hello.json"))
+  println(new Main().greeting)
+}
+
+class Main {
+  def greeting = "Hello world!"
 }
